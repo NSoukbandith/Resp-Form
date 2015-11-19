@@ -1,0 +1,45 @@
+img {
+ max-width: 100%; 
+ max-height: 90%;
+}
+#masthead {
+  width: 1600px;
+  background-color: #8A2E60;
+  font-color: white;
+}
+body{
+  background-image: url(Desktop/Responsive form/blue.png);
+  font-color: white;
+}
+
+
+
+input[type=Username]
+ {
+  width: 100%;
+  float:left;
+}
+input[type=Username]:focus,
+input[type=Website]:focus,
+input[type=Email]:focus,
+input[type=Password]:focus,
+ {
+  outline: 0;
+  border-color: #4697e4;
+  
+}
+
+@media (max-width: 500px) {
+   {
+    
+    float:left;
+  }
+  
+  }
+  input[type=Username],
+  input[type=Website],
+  input[type=Email],
+  input[type=Password],
+  select {
+    width: 100%; 
+  }
